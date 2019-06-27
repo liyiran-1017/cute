@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>粒粒皆幸苦</title>
+<style type="text/css">
+.bj{
+	height: 550px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(图片素材/bj.PNG);
+	background-position: center center;
+	background-size: 900px 550px;
+}
+	#a1{
+		position: absolute;
+	  padding-top: -50px;
+	    padding-left: 100px;
+		width:900px;
+		height:400px;
+	} 
+	#a1{
+		width:70px;
+		height:70px;
+		position: absolute;
+	    top: 271px;
+		left:165px;
+	} 
+	#a2{
+		width:1050px;
+		position: absolute;
+	    top: -80px;
+		left:-60px;
+	} 
+	#a3{
+		width:1050px;
+		position: absolute;
+	    top: -100px;
+		left:-65px;
+	} 
+	#a4{
+		width:1050px;
+		position: absolute;
+	    top: -85px;
+		left:-50px;
+	} 
+	#a5{
+		width:1000px;
+		position: absolute;
+	    top: -90px;
+		left:-32px;
+	} 
+	#a6{
+		width:985px;
+		position: absolute;
+	    top: -90px;
+		left:-32px;
+	} 
+	#a7{
+		height:600px;
+		width:1015px;
+		position: absolute;
+	    top: -30px;
+		left:-40px;
+	} 
+	#a8{
+		height:700px;
+		width:960px;
+		position: absolute;
+	    top: -98px;
+		left:-2px;
+	} 
+ .a img:hover {
+	height:120px;
+	width:210px;
+	}
+
+</style>
+</head>
+
+<body>
+<div class="bj"  >
+<a href="#" >
+<img src="图片素材/饭1.png " id="a1"></a>
+<a href="#" >
+<img src="图片素材/饭2.png " id="a2"></a>
+<a href="#" >
+<img src="图片素材/饭3.png " id="a3"></a>
+<a href="#"  >
+<img src="图片素材/青菜.png " id="a4"></a>
+<a href="#"  >
+<img src="图片素材/鱼.png " id="a5"></a>
+<a href="#"  >
+<img src="图片素材/肉.png " id="a6"></a>
+<a href="#"  >
+<img src="图片素材/汤.png " id="a7"></a>
+<a href="#"  >
+<img src="图片素材/水果.png " id="a8"></a>
+</div>
+</body>
+</html>
