@@ -1,0 +1,205 @@
+<html><head>
+<title>LLK</title>
+<style type="text/css">
+.border{
+	display: inline-block;
+	width: 40px;
+	height:40px;
+	font-weight: 600;
+    font-size: 36px;
+	margin:1px;
+}
+.border.showPath{
+	background-color:#99FF00;
+}
+.cell{
+	display: inline-block;
+	width: 40px;
+	height:40px;
+	border:1px solid #0099FF;
+	text-align: center;
+	font-weight: 600;
+	font-size:36px;
+	background-color:#FFFFFF;
+	color: #000000;
+}
+.cell.selected{
+	background-color:#3399FF;
+	color: #FFFFFF;
+}
+.cell.showPath{
+	background-color:#99FF00;
+}
+.row{
+	display: block;
+	height: 42px;
+}
+#game{
+	background-image: url(llk/bj.jpg)
+}
+</style>
+</head>
+<body onselectstart="return false">
+<div id="game">
+<div class="row"><div class="border" id="0_gc_0">&nbsp;</div><div class="border" id="1_gc_0">&nbsp;</div><div class="border" id="2_gc_0">&nbsp;</div><div class="border" id="3_gc_0">&nbsp;</div><div class="border" id="4_gc_0">&nbsp;</div><div class="border" id="5_gc_0">&nbsp;</div><div class="border" id="6_gc_0">&nbsp;</div><div class="border" id="7_gc_0">&nbsp;</div><div class="border" id="8_gc_0">&nbsp;</div><div class="border" id="9_gc_0">&nbsp;</div><div class="border" id="10_gc_0">&nbsp;</div><div class="border" id="11_gc_0">&nbsp;</div><div class="border" id="12_gc_0">&nbsp;</div><div class="border" id="13_gc_0">&nbsp;</div></div><div class="row"><div class="border" id="0_gc_1">&nbsp;</div><div class="cell" id="1_gc_1">&nbsp;</div><div class="cell" id="2_gc_1"><img src="llk/baicai.PNG"></div><div class="cell" id="3_gc_1"><img src="llk/caomei.PNG"></div><div class="cell" id="4_gc_1"><img src="llk/dou.PNG"></div><div class="cell" id="5_gc_1"><img src="llk/cheng.PNG"></div><div class="cell" id="6_gc_1"><img src="llk/gua.PNG"></div><div class="cell" id="7_gc_1">I</div><div class="cell" id="8_gc_1"><img src="llk/hln.PNG"></div><div class="cell" id="9_gc_1">9</div><div class="cell" id="10_gc_1">K</div><div class="cell" id="11_gc_1"><img src="llk/caomei.PNG"></div><div class="cell" id="12_gc_1">&nbsp;</div><div class="border" id="13_gc_1">&nbsp;</div></div><div class="row"><div class="border" id="0_gc_2">&nbsp;</div><div class="cell" id="1_gc_2"><img src="llk/dou.PNG"></div><div class="cell" id="2_gc_2">R</div><div class="cell" id="3_gc_2">Z</div><div class="cell" id="4_gc_2">F</div><div class="cell" id="5_gc_2">K</div><div class="cell" id="6_gc_2">D</div><div class="cell" id="7_gc_2"><img src="llk/baicai.PNG"></div><div class="cell" id="8_gc_2">R</div><div class="cell" id="9_gc_2">8</div><div class="cell" id="10_gc_2">W</div><div class="cell" id="11_gc_2"><img src="llk/hln.PNG"></div><div class="cell" id="12_gc_2">&nbsp;</div><div class="border" id="13_gc_2">&nbsp;</div></div><div class="row"><div class="border" id="0_gc_3">&nbsp;</div><div class="cell" id="1_gc_3">K</div><div class="cell" id="2_gc_3"><img src="llk/baicai.PNG"></div><div class="cell" id="3_gc_3">D</div><div class="cell" id="4_gc_3"><img src="llk/cheng.PNG"></div><div class="cell" id="5_gc_3">2</div><div class="cell" id="6_gc_3">K</div><div class="cell" id="7_gc_3"><img src="llk/hpg.PNG"></div><div class="cell" id="8_gc_3">4</div><div class="cell" id="9_gc_3">9</div><div class="cell" id="10_gc_3">Y</div><div class="cell" id="11_gc_3">W</div><div class="cell" id="12_gc_3">Y</div><div class="border" id="13_gc_3">&nbsp;</div></div><div class="row"><div class="border" id="0_gc_4">&nbsp;</div><div class="cell" id="1_gc_4">4</div><div class="cell" id="2_gc_4"><img src="llk/hpg.PNG"></div><div class="cell" id="3_gc_4">Y</div><div class="cell" id="4_gc_4">G</div><div class="cell" id="5_gc_4"><img src="llk/dou.PNG"></div><div class="cell" id="6_gc_4"><img src="llk/hpg.PNG"></div><div class="cell" id="7_gc_4">F</div><div class="cell" id="8_gc_4">K</div><div class="cell" id="9_gc_4"><img src="llk/hln.PNG"></div><div class="cell" id="10_gc_4"><img src="llk/baicai.PNG"></div><div class="cell" id="11_gc_4">V</div><div class="cell" id="12_gc_4">Z</div><div class="border" id="13_gc_4">&nbsp;</div></div><div class="row"><div class="border" id="0_gc_5">&nbsp;</div><div class="cell" id="1_gc_5">&nbsp;</div><div class="cell" id="2_gc_5">L</div><div class="cell" id="3_gc_5">C</div><div class="cell" id="4_gc_5">Z</div><div class="cell" id="5_gc_5">K</div><div class="cell" id="6_gc_5">I</div><div class="cell" id="7_gc_5">R</div><div class="cell" id="8_gc_5">W</div><div class="cell" id="9_gc_5">2</div><div class="cell" id="10_gc_5">D</div><div class="cell" id="11_gc_5">F</div><div class="cell" id="12_gc_5"><img src="llk/hln.PNG"></div><div class="border" id="13_gc_5">&nbsp;</div></div><div class="row"><div class="border" id="0_gc_6">&nbsp;</div><div class="cell" id="1_gc_6">&nbsp;</div><div class="cell" id="2_gc_6">&nbsp;</div><div class="cell" id="3_gc_6">R</div><div class="cell" id="4_gc_6">L</div><div class="cell" id="5_gc_6">K</div><div class="cell" id="6_gc_6">D</div><div class="cell" id="7_gc_6"><img src="llk/dou.PNG"></div><div class="cell" id="8_gc_6">G</div><div class="cell" id="9_gc_6">K</div><div class="cell" id="10_gc_6">Z</div><div class="cell" id="11_gc_6"><img src="llk/hpg.PNG"></div><div class="cell" id="12_gc_6">5</div><div class="border" id="13_gc_6">&nbsp;</div></div><div class="row"><div class="border" id="0_gc_7">&nbsp;</div><div class="cell" id="1_gc_7">F</div><div class="cell" id="2_gc_7">Z</div><div class="cell" id="3_gc_7">V</div><div class="cell" id="4_gc_7">G</div><div class="cell" id="5_gc_7">5</div><div class="cell" id="6_gc_7"><img src="llk/hln.PNG"></div><div class="cell" id="7_gc_7">8</div><div class="cell" id="8_gc_7"><img src="llk/caomei.PNG"></div><div class="cell" id="9_gc_7"><img src="llk/hpg.PNG"></div><div class="cell" id="10_gc_7"><img src="llk/hpg.PNG"></div><div class="cell" id="11_gc_7"><img src="llk/hln.PNG"></div><div class="cell" id="12_gc_7"><img src="llk/cheng.PNG"></div><div class="border" id="13_gc_7">&nbsp;</div></div><div class="row"><div class="border" id="0_gc_8">&nbsp;</div><div class="cell" id="1_gc_8">&nbsp;</div><div class="cell" id="2_gc_8">Y</div><div class="cell" id="3_gc_8">G</div><div class="cell" id="4_gc_8"><img src="llk/caomei.PNG"></div><div class="cell" id="5_gc_8"><img src="llk/cheng.PNG"></div><div class="cell" id="6_gc_8">Z</div><div class="cell" id="7_gc_8">S</div><div class="cell" id="8_gc_8">C</div><div class="cell" id="9_gc_8"><img src="llk/gua.PNG"></div><div class="cell" id="10_gc_8">W</div><div class="cell" id="11_gc_8">&nbsp;</div><div class="cell" id="12_gc_8">S</div><div class="border" id="13_gc_8">&nbsp;</div></div><div class="row"><div class="border" id="0_gc_9">&nbsp;</div><div class="border" id="1_gc_9">&nbsp;</div><div class="border" id="2_gc_9">&nbsp;</div><div class="border" id="3_gc_9">&nbsp;</div><div class="border" id="4_gc_9">&nbsp;</div><div class="border" id="5_gc_9">&nbsp;</div><div class="border" id="6_gc_9">&nbsp;</div><div class="border" id="7_gc_9">&nbsp;</div><div class="border" id="8_gc_9">&nbsp;</div><div class="border" id="9_gc_9">&nbsp;</div><div class="border" id="10_gc_9">&nbsp;</div><div class="border" id="11_gc_9">&nbsp;</div><div class="border" id="12_gc_9">&nbsp;</div><div class="border" id="13_gc_9">&nbsp;</div></div></div>
+<script type="text/javascript">
+var nx = 12, ny = 8;
+
+function fid (id){
+	return document.getElementById(id);
+}
+var gameDiv = fid('game');
+var selectedCell = null;
+var empty = '&nbsp;';
+var count = nx*ny;
+var cellArray = [];
+function fc(x, y){
+	if(x<0||x>nx+1||y<0||y>ny+1){
+		return null;
+	}
+	return cellArray[y][x];
+}
+function neibors(c){
+	var neiborArr = [
+		fc(c.x-1, c.y),
+		fc(c.x+1, c.y),
+		fc(c.x, c.y+1),
+		fc(c.x, c.y-1)
+	];
+	return neiborArr;
+}
+
+function findPath(c, target, pathStack, trunCount){
+	if(!c){
+		return false;
+	}
+	var c_2 = pathStack[pathStack.length-2];
+	if(c_2&&c_2.x!=c.x&&c_2.y!=c.y){
+		if(++trunCount>2){
+			return false;
+		}
+	}
+	if(c == target){
+		pathStack.push(c);
+		return true;
+	}
+	if(c.innerHTML != empty){
+		return false;
+	}
+	if(pathStack.indexOf(c)>=0){
+		return false;
+	}
+	pathStack.push(c);
+	
+	var nexts = neibors(c);
+	for(var i=0;i<nexts.length;i++){
+		if(findPath(nexts[i], target, pathStack, trunCount)){
+			return true;
+		}
+	}
+	pathStack.pop();
+	return false;
+}
+
+function clearPath(path){
+	for(var i=0;i<path.length;i++){
+		path[i].setAttribute('class', path[i].getAttribute('class').replace(' showPath', ''));
+	}
+}
+
+function drawPath(path){
+	for(var i=0;i<path.length;i++){
+		path[i].setAttribute('class', path[i].getAttribute('class')+' showPath');
+	}
+	setTimeout(clearPath, 150, path);
+}
+
+function tryMatch(ca, cb){
+	if(ca==cb){
+		return;
+	}
+	if(ca.innerHTML !== cb.innerHTML){
+		return;
+	}
+	var pathStack = [ca];
+	var found = false;
+	var nexts = neibors(ca);
+	for(var i=0;i<nexts.length;i++){
+		if(findPath(nexts[i], cb, pathStack, 0)){
+			found = true;
+			break;
+		}
+	}
+	
+	if(!found){
+		return;
+	}
+	ca.innerHTML = cb.innerHTML = empty;
+	setTimeout(drawPath, 10, pathStack);
+	count-=2;
+	if(count<2){
+		alert('You win!');
+	}
+}
+function onCellClicked(e){
+	console.log(this.x+' '+this.y);
+	if(this.innerHTML == empty){
+		return;
+	}
+	if(selectedCell){
+		tryMatch(selectedCell, this);
+		selectedCell.setAttribute('class', 'cell');
+		selectedCell = null;
+	}else{
+		selectedCell = this;
+		selectedCell.setAttribute('class', 'cell selected');
+	}
+}
+function init(m, n){
+	for(var i=0;i<n+2;i++){
+		var row = document.createElement('div');
+		row.setAttribute('class', 'row');
+		var cellArrayRow = [];
+		cellArray.push(cellArrayRow);
+		gameDiv.appendChild(row);
+		for(var j=0;j<m+2;j++){
+			var cell = document.createElement('div');
+			cellArrayRow.push(cell);
+			if(i==0||j==0||i==n+1||j==m+1){
+				cell.setAttribute('class', 'border');
+				cell.innerHTML = empty;
+			}else{
+				cell.setAttribute('class', 'cell');
+				cell.addEventListener('click', onCellClicked);
+			}
+			cell.setAttribute('id', j+'_gc_'+i);
+			cell.x = j;
+			cell.y = i;
+			row.appendChild(cell);
+		}
+	}
+}
+
+init(nx, ny);
+var symbols = 'ABCDEFGHIGKLMNOPQRSTUVWXYZ123456789';
+function reset(){
+	var all = count = nx*ny;
+	var halfAll = all/2;
+	var tmp = [];
+	for(var i=0;i<halfAll;i++){
+		var c = symbols.charAt(Math.floor(Math.random()*35));
+		tmp.push(c);
+		tmp.push(c);
+	}
+	for(var i=all-1;i>=0;i--){
+		var r = Math.floor(Math.random()*i);
+		var c = tmp.splice(r,1);
+		var y = Math.floor(i/nx);
+		var x = i-y*nx;
+		fc(x+1,y+1).innerHTML = c;
+	}
+}
+reset();
+</script>
+
+</body></html>
