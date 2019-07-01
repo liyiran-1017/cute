@@ -2,8 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>无标题文档</title>
+<title>拼图</title>
 	<style>
+		
 		.sy{
 	position: relative;
 	height: 600px;
@@ -20,6 +21,31 @@
 			padding-top: 50px;
 			margin:auto;
 		}
+		#b{
+		border:0;
+		height:230px;
+		position: absolute;
+	    top: 440px;
+	   left: 200px;
+	} 
+		#b1{
+		border:0;
+		height:230px;
+		position: absolute;
+	    top: 450px;
+	   left: 400px;
+	} 
+		#b2{
+		border:0;
+		height:200px;
+		position: absolute;
+	    top: 0px;
+	   left: 750px;
+	} 
+		.button img:hover {
+	
+	width:300px;
+	}
 		ul{
 			width: 450px;
 			height: 450px;
@@ -71,8 +97,14 @@
 				<img src="tupian/9.jpg"  alt="" width="150px" height="150px" draggable="true" id="drag9" ondragstart="dragStart(event)" ondragend="dragEnd(event)">
 			</li>
 		</ul>
-	</div>	</div>
-	<p id="success"> 拼图成功！</p>
+	</div>	
+	<a href="pintu.html" class="button" >
+<img src="tupian/again.png" id="b"></a>
+		<a href="youxi.html" class="button" >
+<img src="tupian/fanhui.png" id="b1"></a>
+	<a href="index.html" class="button" >
+<img src="tupian/fanhuishouye.png" id="b2"></a>
+	<p id="success"> 拼图成功！</p></div>
 	<script>
 		var start_index;
 		var end_index;
